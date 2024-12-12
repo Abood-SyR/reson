@@ -53,7 +53,7 @@ input , textarea{
 }
 
 textarea{
-    height: 100px;
+    height: 70px;
 }
 select{
     margin-bottom: 10px;
@@ -96,7 +96,7 @@ select{
 }
 p{
     backdrop-filter: blur(10px);
-    height: 3%;
+    height: 4%;
     font-weight: 300;
     font-style:normal;
     letter-spacing: 1px;
