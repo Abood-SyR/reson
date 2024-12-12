@@ -96,7 +96,7 @@ select{
 }
 p{
     backdrop-filter: blur(10px);
-    height: 5vh;
+    height: 4vh;
     font-weight: 300;
     font-style:normal;
     letter-spacing: 1px;
