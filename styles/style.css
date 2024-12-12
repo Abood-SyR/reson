@@ -14,8 +14,8 @@ h1{
 }
 #container{
     width: 100%;
-    max-height: 91.44vh;
-    height: 91.44vh;
+    max-height: 100svh;
+    height: 100svh;
     text-align: center;
     background: url(./../images/wallpaper1.png) no-repeat;
     background-size:cover;
@@ -96,14 +96,60 @@ select{
 }
 p{
     backdrop-filter: blur(10px);
-    height: 4%;
+    height: 5vh;
     font-weight: 300;
     font-style:normal;
     letter-spacing: 1px;
     font-size:1.2em ;
     color: #fcf1f1;
-    margin-top: 5%;
+    margin-top: 4vh;
+    
     
   
    
+}
+
+@media screen and (max-height: 770px){
+    input, textarea{
+        height: 50px; 
+    }
+}
+
+@media screen and (max-height: 724px){
+    input, textarea{
+        height: 40px; 
+    }
+}
+@media screen and (max-height: 642px){
+    input, textarea{
+        height: 35px; 
+    }
+}
+@media screen and (max-height: 598px){
+    input, textarea{
+        height: 30px; 
+    }
+}
+@media screen and (max-height: 554px){
+    input, textarea{
+        height: 25px; 
+    }
+}
+@media screen and (max-height: 509px){
+    input, textarea{
+        height: 20px; 
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-height: 884px){
+    form{
+        margin-top: 0;
+    }
+    #container{
+        min-height: 100svh;
+    }
+    p{
+        margin-top: 4vh;
+        height: 5vh;
+    }
 }
